@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Robot Car Kit Checklist</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f8f8f8;
+      padding: 16px;
+    }
+    h2 {
+      color: #284b63;
+      margin-bottom: 16px;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+      max-width: 420px;
+      margin: auto;
+    }
+    li {
+      background: #fff;
+      margin-bottom: 8px;
+      padding: 10px 16px;
+      border-radius: 8px;
+      box-shadow: 0 1px 2px rgba(0,0,0,0.06);
+      display: flex;
+      align-items: center;
+      font-size: 1rem;
+    }
+    input[type="checkbox"] {
+      margin-right: 12px;
+      accent-color: #284b63;
+      width: 20px;
+      height: 20px;
+    }
+    label {
+      cursor: pointer;
+      flex: 1;
+    }
+  </style>
+</head>
+<body>
+  <h2>Robot Car Kit Inventory Checklist</h2>
+  <ul>
+    <li><input type="checkbox" id="chassis"><label for="chassis">Chassis</label></li>
+    <li><input type="checkbox" id="motors"><label for="motors">2 DC motors (N20) + 2 wheels</label></li>
+    <li><input type="checkbox" id="caster"><label for="caster">1 caster wheel</label></li>
+    <li><input type="checkbox" id="nano"><label for="nano">Arduino Nano + USB cable</label></li>
+    <li><input type="checkbox" id="driver"><label for="driver">Motor driver (L298P)</label></li>
+    <li><input type="checkbox" id="ultrasonic"><label for="ultrasonic">Ultrasonic sensor (HC-SR04) + header mount</label></li>
+    <li><input type="checkbox" id="linesensor"><label for="linesensor">Line-following sensors (4x TCRT5000)</label></li>
+    <li><input type="checkbox" id="batteryholders"><label for="batteryholders">2 battery holders + 1 dual-pole master switch</label></li>
+    <li><input type="checkbox" id="batteries_motors"><label for="batteries_motors">4x AAA batteries (1.5V) for motors</label></li>
+    <li><input type="checkbox" id="batteries_logic"><label for="batteries_logic">4x AAA batteries (1.2V) for logic</label></li>
+    <li><input type="checkbox" id="jumperwires"><label for="jumperwires">Jumper wires</label></li>
+    <li><input type="checkbox" id="screws"><label for="screws">Screws</label></li>
+  </ul>
+</body>
+</html>
